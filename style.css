@@ -1,0 +1,46 @@
+.body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+/* .first,.second,.third,.fourth,.fifth{
+    display: flex;
+    justify-content: center; */
+/* } */
+input{
+    height: 150px;
+    width: 550px;
+    font-size: 60px;
+    text-align: end;
+    background-color: transparent;
+   
+    margin: 4px;
+    margin-left: 6px;
+}
+.me{
+    background-color:black;
+}
+button{
+    width: 125px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 40px;
+    margin:7px;
+    box-shadow: 3px 4px 3px 4px grey;
+    background-color:#333333 ;
+    color: white;
+    cursor: pointer;
+}
+.oper{
+    background-color:green;
+}
+.DEL{
+    background-color: orange;
+}
+.AC{
+    background-color: red;
+}
